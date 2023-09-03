@@ -1,0 +1,116 @@
+@media (min-width: 641px) {
+  .desktop-menu {
+
+    display: block;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .pozadina {
+
+    background-image: url("../images/pozadina.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .buttonL {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 45px;
+    margin-bottom: 10px;
+
+    img {
+      width: 90px;
+    }
+  }
+
+  .divL {
+    margin-left: auto;
+  }
+
+
+  .navZaTel {
+    display: none !important;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+  .pozadina {
+    background-image: url("../images/pozadina.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .navZaTel {
+    display: block;
+
+  }
+
+  .dugmeMenija {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 45px;
+    margin-bottom: 10px;
+
+  }
+
+  .padajuciMeni {
+    background-color: transparent;
+    width: 100%;
+    display: none;
+    margin-left: 20px;
+
+
+    a {
+      color: rgb(142, 139, 139);
+      text-decoration: none;
+    }
+  }
+
+
+
+  .buttonL {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 45px;
+    margin-bottom: 10px;
+
+
+
+    img {
+      width: 90px;
+    }
+  }
+}

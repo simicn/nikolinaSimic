@@ -1,0 +1,71 @@
+.biografija {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+
+  img {
+    max-width: 65%;
+    height: auto;
+    grid-column: 1;
+    margin-bottom: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.mojCV {
+  grid-column: 2;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 90px;
+  font-size: 20px;
+
+}
+
+@media only screen and (max-width: 640px) {
+  .biografija {
+    display: block;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .mojCV {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 641px) and (max-width: 961px) {
+  .biografija {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+      max-width: 65%;
+      height: auto;
+      grid-column: 1;
+      margin-bottom: 70px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  .mojCV {
+    grid-column: 2;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 90px;
+    font-size: 20px;
+  }
+}
