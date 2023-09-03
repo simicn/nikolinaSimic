@@ -1,16 +1,13 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
-import { useTranslation } from 'react-i18next'
 
 
 
 function Footer() {
-    const {t} = useTranslation()
     return (
         <footer>
             <div className='kontakt-inf'>
                 <p>nikolina__simic__@hotmail.com</p>
-                
             </div>
             <div className='copyright'>
                 &copy; {new Date().getFullYear()} Nikolina Simić
