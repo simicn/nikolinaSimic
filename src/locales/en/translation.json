@@ -2,11 +2,11 @@
     "Pocetna":"Home",
     "CV":"CV",
     "Kontakt":"Contact",
-    "Biografija":"Hello, I am Nikolina Simić. I graduated with a Bachelor's degree in Serbian language and literature at the Faculty of Philosophy in Novi Sad in 2022. Afterward, I enrolled in the IT Academy in Belgrade. I am actively honing my skills in web application development, with a special focus on Frontend JavaScript Development. When I'm not occupied with work or learning, I enjoy relaxing with a good book, indulging in sewing, and playing the violin.",
+    "Biografija":"Hello, my name is Nikolina Simić. I recently graduated with a Bachelor's degree in Serbian language and literature from the Faculty of Philosophy in Novi Sad in 2022. Following my graduation, I enrolled in the IT Academy in Belgrade. Currently, my primary focus is on web application development, with a particular passion for Frontend JavaScript Development. Beyond the digital realm, I find joy in the pages of a captivating book, sewing, and playing the violin. These diverse interests complement my technical pursuits, adding depth and balance to both my personal and professional life.",
     "PreuzmiCV":"Download my CV",
     "E-mail": "E-mail adress",
     "Telefon":"Phone",
     "PosaljiMejl":"Send me e-mail",
-    "CVslika": "/img/slikaCvRs.jpg",
-    "CVdocument": "/img/NSCV.pdf"
+    "CVslika": "/img/slikaCvEn.jpg",
+    "CVdocument": "/img/nsCvEn.pdf"
 }
