@@ -7,5 +7,6 @@
     "E-mail": "E-mail adress",
     "Telefon":"Phone",
     "PosaljiMejl":"Send me e-mail",
-    "CVslika": "/img/slikaCV.jpg"
+    "CVslika": "/img/slikaCvRs.jpg",
+    "CVdocument": "/img/NSCV.pdf"
 }
