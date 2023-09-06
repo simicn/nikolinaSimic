@@ -43,17 +43,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 640px) {
   .pozadina {
     background-image: url("../images/pozadina.jpg");
@@ -84,16 +73,23 @@
   }
 
   .padajuciMeni {
+    
     background-color: transparent;
     width: 100%;
-    display: none;
     margin-left: 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease;
 
+   
 
     a {
       color: rgb(142, 139, 139);
       text-decoration: none;
     }
+  }
+  .padajuciMeni.otvoren {
+    max-height: 500px; 
   }
 
 
