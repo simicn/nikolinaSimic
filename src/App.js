@@ -1,5 +1,5 @@
 import 'bulma/css/bulma.css'
-import React from 'react';
+import React, { useState } from 'react';
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './Home/Home';
 import Cv from './CV/Cv';
@@ -16,19 +16,10 @@ import 'font-awesome/css/font-awesome.min.css';
 function App() {
   const { t } = useTranslation()
 
-  function PadajuciM() {
-    const x = document.getElementsByClassName('padajuciMeni')
-    if (x.length > 0) {
-      const prviElement = x[0];
+  const [menuOpen, setMenuOpen] = useState(false);
 
-
-      if (prviElement.style.display === "block") {
-        prviElement.style.display = "none";
-      } else {
-        prviElement.style.display = "block";
-      }
-     
-    }
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   }
 
   return (
@@ -50,8 +41,10 @@ function App() {
 
 
         <div className='navZaTel'>
-          <button className='dugmeMenija' onClick={PadajuciM}>☰</button>
-          <div className='padajuciMeni'>
+          <button className='dugmeMenija' onClick={toggleMenu}>
+            <i className={`fa ${menuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+          </button>
+          <div className={"padajuciMeni " + (menuOpen ? 'otvoren' : '')}>
             <ul>
               <li className='li'><Link to="/" className="is-active">{t("Pocetna")}</Link></li>
               <li className='li'><Link to="/cv" className="is-active">{t("CV")}</Link></li>
