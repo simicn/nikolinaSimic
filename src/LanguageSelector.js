@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import i18n from './i18n';
 import 'font-awesome/css/font-awesome.min.css';
 import rsSlika from './images/rsZastava.png';
-import zastavaA from './images/zastavaA.png';
+import zastavaA from './images/zastavaE.png';
 
 const LanguageSelector = () => {
 
